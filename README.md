@@ -1,1 +1,0 @@
-# ai-10-behavior-of-linear-models
