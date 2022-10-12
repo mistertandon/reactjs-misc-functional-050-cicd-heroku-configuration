@@ -29,3 +29,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+      with:
+        heroku_api_key: ${{ secrets.REACTJS_CICD_HEROKU }}
+        heroku_app_name: 'reactjs-cicd-init-heroku-dev'
+        heroku_email: 'enggparveshtandon+heroku@gmail.com'
