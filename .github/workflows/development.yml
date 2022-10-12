@@ -31,4 +31,4 @@ jobs:
         env:
           HEROKU_APP_NAME: reactjs-cicd-init-dev
       - name: Push to Heroku
-        run: git push heroku master
+        run: git push origin master
